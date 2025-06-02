@@ -104,7 +104,9 @@ plugins:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:blog_hexo/jianglinper.github.io.git
+  branch: master
 
 # algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
 algolia:
